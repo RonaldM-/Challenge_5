@@ -1,3 +1,10 @@
+/* bandeau - taille des colonnes */
+#bandeau .col-lg-4,
+#bandeau .col-md-6,
+#bandeau .col-sm-12 {
+	padding: 0;
+}
+
 /* style du bandeau - couleurs */
 #bandeau,
 #bandeau small {

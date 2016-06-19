@@ -6,13 +6,10 @@ body{
 a{
 	color: white;
 }
-header{
-	height 48px!important;
-}
-nav{
-	height: 48px;
-}
+
+
 .navbar-brand{
+	height: 48px;
 	font-size: 18px;
 	font-weight: 700;
 }
@@ -81,4 +78,26 @@ a.loupe{
 }
 a.loupe:hover{
 	background: #41a62a;
+}
+.search_box{
+
+	padding-left: 0px;
+	padding-right:0px;
+}
+.search_form{
+	height: 49px!important;
+	width: 100%;
+	right: 0;
+	margin-right: 15px;
+	float: right;
+	padding: 12px;
+	background: #41a62a;
+}
+.size_md{
+	width: 324px!important;
+	height: 25px!important;
+	float: right!important;
+}
+.form-control{
+	border-radius: 4px !important;
 }

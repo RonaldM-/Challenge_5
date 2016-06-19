@@ -80,5 +80,5 @@ a.loupe{
 	-moz-osx-font-smoothing: grayscale;
 }
 a.loupe:hover{
-
+	background: #41a62a;
 }

@@ -1,3 +1,10 @@
+/* style du bandeau - couleurs */
+#bandeau,
+#bandeau small {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
 /* style du bandeau - taille des images */
 
 #bandeau img {

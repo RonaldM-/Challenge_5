@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body{
+	background-color: black;
+}
+
+a{
+	color: white;
+}
+header{
+	height 48px!important;
+}
+nav{
+	height: 48px;
+}
+.navbar-brand{
+	font-size: 18px;
+	font-weight: 700;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.navbar-nav a{
+	height:48px;
+}
+.navbar-nav{
+	height: 48px;
+	margin-right: 0;
+	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.active a{
+	color: #55d737;
+	font-weight: 900;
+}
+
+.active a:hover{
+	color: white;
+}
+.navbar-nav li a:hover{
+	background-color: #24890d;
+	color: white;
+}
+a.facebook, a.twitter{
+	padding: 0;
+}
+.facebook:before {
+	content: '\f204';
+	font: normal 16px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.twitter:before {
+	content: '\f202';
+	font: normal 16px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a.loupe{
+	display: block;
+	cursor: pointer;
+	background-color: #24890d;
+	color: white;
+	float: right !important;
+	height: 48px;
+	width: 48px;
+
+}
+.loupe:before {
+	font-weight: 400;
+	font-size: 20px !important;
+	margin-top:14px;
+	content: '\f400';
+	font: normal 16px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a.loupe:hover{
+
+}

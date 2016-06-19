@@ -18,8 +18,14 @@
 	text-transform: uppercase;
 }
 #bandeau h2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding: 0 15px;
 	font-size: 0.8em;
 	font-weight: 700;
+}
+#bandeau h2 br {
+	line-height: 50px;
 }
 #bandeau h2 small {
 	font-size: 1.5em;

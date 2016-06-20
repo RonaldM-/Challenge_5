@@ -7,7 +7,9 @@ a{
 	color: white;
 }
 
-
+nav.navbar{
+	margin-bottom: 0;
+}
 .navbar-brand{
 	height: 48px;
 	font-size: 18px;

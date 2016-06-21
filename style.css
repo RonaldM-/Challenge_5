@@ -4,6 +4,7 @@ body{
 }
 
 a{
+	text-decoration: none!important;
 	color: white;
 }
 
@@ -102,4 +103,13 @@ a.loupe:hover{
 }
 .form-control{
 	border-radius: 4px !important;
+}
+
+.theme_descrip{
+	color: #939393;
+	font-size: 12px;
+}
+.theme_descrip a:hover{
+	color: #24890d;
+	/*text-decoration: none;*/
 }

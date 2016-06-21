@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 body{
+	font-family: Lato,sans-serif;
 	background-color: black;
 }
 
@@ -103,6 +104,9 @@ a.loupe:hover{
 }
 .form-control{
 	border-radius: 4px !important;
+}
+.block{
+	margin-bottom:48px;
 }
 .remerciement h4{
 	color: white;

@@ -6,9 +6,11 @@
 }
 
 /* style du bandeau - couleurs */
+#bandeau {
+	background-color: #000000;
+}
 #bandeau,
 #bandeau small {
-	background-color: #000000;
 	color: #FFFFFF;
 }
 

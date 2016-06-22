@@ -9,3 +9,15 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+
+/* article - gestion des styles de police */
+#article {
+	font-family: sans;
+}
+#article h1,
+#article h2 {
+	text-transform: uppercase;
+}
+#article h1 {
+	font-weight: 100;
+}

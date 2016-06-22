@@ -176,8 +176,10 @@ nav ul{
 	font-size: 11px!important;
 	font-weight: 900;
 }
-
- .theme_descrip{
+.powerfull_by{
+	padding-right: 0;
+}
+.theme_descrip{
 	color: #939393;
 	font-size: 12px;
 	font-style: normal;

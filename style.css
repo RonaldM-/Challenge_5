@@ -127,6 +127,14 @@ nav{
 .block{
 	margin-bottom:48px;
 }
+.nav_sidebar{
+	border-bottom: 1px solid; 
+}
+.nav_sidebar ul li{
+	width: 100%;
+	display: block;
+	border-top: 1px solid;
+}
 nav ul{
 	padding: 0 15px 0 15px;
 	padding: 0;

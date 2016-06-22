@@ -1,3 +1,8 @@
+/* article - taille des sections */
+#article article {
+	min-height: 800px;
+}
+
 /* article - alignement des éléments de la section principale */
 #article article {
 	display: flex;

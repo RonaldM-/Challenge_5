@@ -103,11 +103,14 @@ a.loupe:hover{
 	float: right!important;
 }
 .size_sx{
+	border: 1px solid #939393;
+	background-color: #1A1A1A;
+	padding: 3px 2px 4px 4px;
 	width: 162px;
 	height: 23px;
 }
 .search_sidebar{
-	padding: 0 15px;
+	padding: 0 0 0 15px;
 }
 .form-control{
 	border-radius: 4px !important;

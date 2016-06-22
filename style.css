@@ -43,3 +43,10 @@
 #article article a {
 	text-decoration: underline;
 }
+
+/* article - style des sections de la colonne de droite */
+#article > div:nth-child(2) > div > div > hr:first-child {
+	border-style: none;
+	background-color: #000;
+	height: 5px;
+}

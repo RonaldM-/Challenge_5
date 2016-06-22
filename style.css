@@ -85,7 +85,6 @@ a.loupe:hover{
 	background: #41a62a;
 }
 .search_box{
-
 	padding-left: 0px;
 	padding-right:0px;
 }
@@ -106,6 +105,9 @@ a.loupe:hover{
 .size_sx{
 	width: 162px;
 	height: 23px;
+}
+.search_sidebar{
+	padding: 0 15px;
 }
 .form-control{
 	border-radius: 4px !important;

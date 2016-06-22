@@ -9,6 +9,10 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+#article h2 {
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
 
 /* article - styles de police */
 #article {

@@ -35,3 +35,11 @@
 #article > div:nth-child(2) p span {
 	font-style: italic;
 }
+
+/* article - style des liens */
+#article a {
+	color: #3F942B;
+}
+#article article a {
+	text-decoration: underline;
+}

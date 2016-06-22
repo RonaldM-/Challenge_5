@@ -91,6 +91,7 @@ a.loupe:hover{
 	padding-right:0px;
 }
 .search_large{
+	position: absolute;
 	height: 49px!important;
 	width: 100%;
 	right: 0;
@@ -121,6 +122,7 @@ nav{
 		padding: 0 0 0 15px;
 }
 .descrip_site{
+	padding-top: 0;
 	color: #939393;
 	font-size: 12px;
 	font-weight: 400;

@@ -108,6 +108,12 @@ a.loupe:hover{
 .block{
 	margin-bottom:48px;
 }
+nav ul{
+	padding: 0;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
 .release h4{
 	text-transform: uppercase;
 	color:white;

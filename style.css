@@ -103,8 +103,15 @@ a.loupe:hover{
 	height: 25px!important;
 	float: right!important;
 }
+.size_sx{
+	width: 162px;
+	height: 23px;
+}
 .form-control{
 	border-radius: 4px !important;
+}
+nav{
+		padding: 0 0 0 15px;
 }
 .descrip_site{
 	color: #939393;
@@ -116,6 +123,7 @@ a.loupe:hover{
 	margin-bottom:48px;
 }
 nav ul{
+	padding: 0 15px 0 15px;
 	padding: 0;
 	list-style: none;
 	text-transform: uppercase;

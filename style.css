@@ -3,7 +3,7 @@
 	min-height: 800px;
 }
 
-/* article - alignement des éléments de la section principale */
+/* article - alignement des éléments */
 #article article {
 	display: flex;
 	flex-direction: column;

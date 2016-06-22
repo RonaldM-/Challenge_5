@@ -1,0 +1,6 @@
+/* article - alignement des éléments de la section principale */
+#article article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

@@ -273,6 +273,11 @@ footer{
 	}
 }
 
+/* article - couleur de fond */
+#article {
+	background-color: #FFF;
+}
+
 /* article - alignement des éléments */
 #article article {
 	display: flex;

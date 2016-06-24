@@ -225,3 +225,50 @@ footer{
 }
 
 /*Fin partie Ronald*/
+
+/* bandeau - taille des colonnes */
+#bandeau .col-lg-4,
+#bandeau .col-md-6,
+#bandeau .col-sm-12 {
+	padding: 0;
+}
+
+/* style du bandeau - couleurs */
+#bandeau {
+	background-color: #000000;
+}
+#bandeau,
+#bandeau small {
+	color: #FFFFFF;
+}
+
+/* style du bandeau - style du texte */
+#bandeau h2,
+#bandeau h2 small {
+	text-transform: uppercase;
+}
+#bandeau h2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding: 0 15px;
+	font-size: 0.8em;
+	font-weight: 700;
+}
+#bandeau h2 br {
+	line-height: 50px;
+}
+#bandeau h2 small {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+/* style du bandeau - taille des images */
+#bandeau img {
+	width: 100%;
+	height: 170px;
+}
+@media (min-width: 1200px) {
+	#bandeau img {
+		height: 190px;
+	}
+}

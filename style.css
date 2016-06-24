@@ -209,3 +209,15 @@ nav ul{
 	color: #24890d;
 	/*text-decoration: none;*/
 }
+footer{
+	padding:15px 30px;
+}
+.description_footer{
+	color: #939393;
+	font-family: Lato,sans-serif;
+	font-size: 12px;
+}
+
+.green:hover{
+	color: #24890d;
+}

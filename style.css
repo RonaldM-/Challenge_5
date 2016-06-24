@@ -272,3 +272,69 @@ footer{
 		height: 190px;
 	}
 }
+
+/* article - alignement des éléments */
+#article article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#article article * {
+	max-width: 474px;
+}
+#article article iframe {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#article h2 {
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+/* article - styles de police */
+#article {
+	font-family: sans;
+}
+#article h1,
+#article h2 {
+	text-transform: uppercase;
+}
+#article h1 {
+	font-size: 2.4em;
+	font-weight: 100;
+}
+#article h2 {
+	font-size: 1.1em;
+	font-weight: 700;
+}
+#article > div:nth-child(2) p {
+	font-size: 0.9em;
+	color: #777;
+}
+#article > div:nth-child(2) > div > div:last-child p {
+	font-size: 0.8em;
+}
+#article > div:nth-child(2) p span {
+	font-style: italic;
+}
+
+/* article - style des liens */
+#article a {
+	color: #3F942B;
+}
+#article article a {
+	text-decoration: underline;
+}
+
+/* article - style des sections de la colonne de droite */
+#article > div:nth-child(2) > div > div > hr:first-child {
+	border-style: none;
+	background-color: #000;
+	height: 5px;
+}
+
+/* article - format de l’image de la colonne de droite */
+#article > div:nth-child(2) img {
+	width: 100%;
+}

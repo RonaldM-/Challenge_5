@@ -71,3 +71,11 @@
 #article > div:nth-child(2) img {
 	width: 100%;
 }
+
+/* article - section cachée dans "upcoming gigs" sur écrans < large */
+@media (max-width: 1199px) {
+	#article > div:nth-child(2) > div > div > p:nth-child(3),
+	#article > div:nth-child(2) > div > div > hr:nth-child(4) {
+		display: none;
+	}
+}

@@ -3,6 +3,15 @@
 	background-color: #FFF;
 }
 
+/* article - bordure en bas de la section principale sur écrans > medium */
+@media (max-width: 991px) {
+	#article article {
+		padding-bottom: 50px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #EEE;
+	}
+}
+
 /* article - alignement des éléments */
 #article {
 	padding: 50px 50px 50px 0;

@@ -1,3 +1,4 @@
+/*Défaut*/
 @import url(https://fonts.googleapis.com/css?family=Lato);
 body{
 	font-family: Lato,sans-serif;
@@ -11,6 +12,7 @@ a{
 	color: white;
 }
 
+/*Partie Ronald*/
 nav.navbar{
 	margin-bottom: 0;
 }
@@ -221,3 +223,5 @@ footer{
 .green:hover{
 	color: #24890d;
 }
+
+/*Fin partie Ronald*/

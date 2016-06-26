@@ -17,6 +17,7 @@ nav.navbar{
 	margin-bottom: 0;
 }
 .navbar-brand{
+	margin-left:0!important;
 	padding:15px 0 15px 30px;
 	height: 48px;
 	font-size: 18px;
@@ -43,8 +44,8 @@ nav.navbar{
 .active a:hover{
 	color: white;
 }
-.navbar-nav li a:hover{
-	background-color: #24890d;
+.greenblock:hover{
+	background-color: #24890d!important;
 	color: white;
 }
 a.facebook, a.twitter{
@@ -93,11 +94,11 @@ a.loupe:hover{
 	padding-right:0px;
 }
 .search_large{
+	z-index: 1;
 	position: absolute;
 	height: 49px!important;
 	width: 100%;
 	right: 0;
-	margin-right: 15px;
 	float: right;
 	padding: 12px;
 	background: #41a62a;
@@ -124,6 +125,7 @@ nav{
 		padding: 0 0 0 15px;
 }
 .descrip_site{
+	margin-left: 30px;
 	margin-top: 0;
 	color: #939393;
 	font-size: 12px;
@@ -132,6 +134,10 @@ nav{
 }
 .block{
 	margin-bottom:48px;
+}
+.nav_sidebar a{
+	display: block;
+	padding: 10px 30px;
 }
 .nav_sidebar{
 	padding-left: 0px;
@@ -142,6 +148,10 @@ nav{
 	display: block;
 	border-top: 1px solid;
 }
+.nav_sidebar ul{
+	margin-bottom: 0;
+}
+
 nav ul{
 	padding: 0 15px 0 15px;
 	padding: 0;

@@ -2,6 +2,7 @@
 #bandeau .col-lg-4,
 #bandeau .col-md-6,
 #bandeau .col-sm-12 {
+	max-height: 300px;
 	padding: 0;
 }
 

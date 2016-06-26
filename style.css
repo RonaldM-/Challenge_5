@@ -94,6 +94,7 @@ a.loupe:hover{
 	padding-right:0px;
 }
 .search_large{
+	display: none;
 	z-index: 1;
 	position: absolute;
 	height: 49px!important;

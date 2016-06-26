@@ -148,6 +148,10 @@ nav{
 	display: block;
 	border-top: 1px solid;
 }
+.nav_sidebar ul{
+	margin-bottom: 0;
+}
+
 nav ul{
 	padding: 0 15px 0 15px;
 	padding: 0;

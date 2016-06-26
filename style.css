@@ -94,11 +94,11 @@ a.loupe:hover{
 	padding-right:0px;
 }
 .search_large{
+	z-index: 1;
 	position: absolute;
 	height: 49px!important;
 	width: 100%;
 	right: 0;
-	margin-right: 15px;
 	float: right;
 	padding: 12px;
 	background: #41a62a;

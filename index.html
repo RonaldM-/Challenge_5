@@ -8,8 +8,24 @@
 	<link rel="stylesheet" type="text/css" href="elements/genericons/genericons.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="elements/bootstrap/js/jquery.js"></script>
-  	<script src="elements/bootstrap/js/bootstrap.js"></script>
+  	<!-- <script src="elements/bootstrap/js/bootstrap.js"></script> -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+function ninja() {
+	// définition de ma variable pour la lier avec mon Id
+	var status_show_hide = document.getElementById("OnOFF");
 
+	// Si ma variable status_show_hide est en display:none alors,
+	if (status_show_hide.style.display === 'none'){
+	// Je la fais passer en block
+	    status_show_hide.style.display = 'block';
+	}
+	// Sinon en display:none
+	else{
+	    status_show_hide.style.display = 'none';
+	}
+}
+</script>
 </head>
 <body>
 	<header>
@@ -20,7 +36,8 @@
 						<a href="" class="navbar-brand green">Progeny MMXIV</a>
 					</div>
 					<div class="search_loupe text-center">
-						<a href="#" class="loupe"></a>
+						<!-- J'appels ma fonction ninja() sur un Onclick -->
+						<a href="#" onclick="ninja()" class="loupe"></a>
 					</div>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#">Home</a></li>
@@ -34,7 +51,7 @@
 					</ul>
 				</div>
 				<div class="col-lg-10 col-lg-offset-2 search_box">
-					<div class="input-group search_form search_large">
+					<div id="OnOFF" class="input-group search_form search_large active_search">
 						<input type="text" class="form-control size_md size_sx" placeholder="Search ...">
 					</div>
 				</div>

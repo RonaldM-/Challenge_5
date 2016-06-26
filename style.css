@@ -35,12 +35,12 @@
 }
 
 /* style du bandeau - taille des images */
-#bandeau img {
+#bandeau > div > div:first-child {
 	width: 100%;
 	height: 170px;
 }
 @media (min-width: 1200px) {
-	#bandeau img {
+	#bandeau > div > div:first-child {
 		height: 190px;
 	}
 }

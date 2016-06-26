@@ -43,8 +43,8 @@ nav.navbar{
 .active a:hover{
 	color: white;
 }
-.navbar-nav li a:hover{
-	background-color: #24890d;
+.greenblock:hover{
+	background-color: #24890d!important;
 	color: white;
 }
 a.facebook, a.twitter{
@@ -132,6 +132,10 @@ nav{
 }
 .block{
 	margin-bottom:48px;
+}
+.nav_sidebar a{
+	display: block;
+	padding: 10px 30px;
 }
 .nav_sidebar{
 	padding-left: 0px;

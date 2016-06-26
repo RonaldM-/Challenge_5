@@ -16,8 +16,12 @@ a{
 nav.navbar{
 	margin-bottom: 0;
 }
+.navbar-header{
+	margin-left: 15px;
+}
+
 .navbar-brand{
-	margin-left:0!important;
+	margin-left:15px!important;
 	padding:15px 0 15px 30px;
 	height: 48px;
 	font-size: 18px;
@@ -123,7 +127,7 @@ a.loupe:hover{
 	border-radius: 4px !important;
 }
 nav{
-		padding: 0 0 0 15px;
+		padding: 0;
 }
 .descrip_site{
 	margin-left: 30px;

@@ -263,14 +263,11 @@ footer{
 }
 
 /* style du bandeau - taille des images */
-#bandeau img {
+#bandeau > div > div:first-child {
 	width: 100%;
-	height: 170px;
-}
-@media (min-width: 1200px) {
-	#bandeau img {
-		height: 190px;
-	}
+	height: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 /* article - couleur de fond */

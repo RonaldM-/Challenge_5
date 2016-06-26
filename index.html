@@ -10,22 +10,7 @@
 	<script src="elements/bootstrap/js/jquery.js"></script>
   	<!-- <script src="elements/bootstrap/js/bootstrap.js"></script> -->
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script>
-function ninja() {
-	// définition de ma variable pour la lier avec mon Id
-	var status_show_hide = document.getElementById("OnOFF");
 
-	// Si ma variable status_show_hide est en display:none alors,
-	if (status_show_hide.style.display === 'none'){
-	// Je la fais passer en block
-	    status_show_hide.style.display = 'block';
-	}
-	// Sinon en display:none
-	else{
-	    status_show_hide.style.display = 'none';
-	}
-}
-</script>
 </head>
 <body>
 	<header>
@@ -227,5 +212,21 @@ function ninja() {
 			<a href="#" class="green">Proudly powered by WordPress</a> 
 		</div>
 	</footer>
+	<script>
+function ninja() {
+	// définition de ma variable pour la lier avec mon Id
+	var status_show_hide = document.getElementById("OnOFF");
+
+	// Si ma variable status_show_hide est en display:none alors,
+	if (status_show_hide.style.display === 'none'){
+	// Je la fais passer en block
+	    status_show_hide.style.display = 'block';
+	}
+	// Sinon en display:none
+	else{
+	    status_show_hide.style.display = 'none';
+	}
+}
+</script>
 </body>
 </html>

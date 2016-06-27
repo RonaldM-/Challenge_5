@@ -22,7 +22,7 @@ nav.navbar{
 
 .navbar-brand{
 	margin-left:15px!important;
-	padding:15px 0 15px 30px;
+	padding:15px 0 15px 15px;
 	height: 48px;
 	font-size: 18px;
 	font-weight: 700;
@@ -114,7 +114,6 @@ a.loupe:hover{
 	padding-right:0px;
 }
 .search_large{
-	display: none;
 	z-index: 1;
 	position: absolute;
 	height: 49px!important;

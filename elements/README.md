@@ -18,3 +18,7 @@ Rollovers :
 - Il y a un changement d'opacité 
 
 Vous pouvez tester le thème ici pour voir les effets: https://demo.audiotheme.com/progeny-mmxiv/ Je compte sur vous pour ne pas recopier tout le CSS :)
+
+Tâche de chaque membre.
+Antoine --> Bandeau image et article.
+Ronald ---> Header, Aside et Footer

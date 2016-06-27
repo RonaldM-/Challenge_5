@@ -96,7 +96,7 @@
 	background-image: url(images/pattern-dark.svg);
 }
 #article > div:nth-child(2) img:hover {
-	opacity: 0.5;
+	opacity: 0.85;
 }
 
 /* article - section cachée dans "upcoming gigs" sur écrans < large */

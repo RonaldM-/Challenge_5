@@ -124,6 +124,7 @@ a.loupe:hover{
 	background: #41a62a;
 }
 .size_md{
+	background-color: white!important;
 	width: 324px!important;
 	height: 25px!important;
 	float: right!important;

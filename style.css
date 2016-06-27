@@ -73,6 +73,10 @@
 #article article a {
 	text-decoration: underline;
 }
+#article a:hover {
+	color: #41A62A;
+	text-decoration: none;
+}
 
 /* article - style des sections de la colonne de droite */
 #article > div:nth-child(2) > div > div > hr:first-child {

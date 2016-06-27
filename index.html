@@ -20,21 +20,22 @@
 						<a href="" class="navbar-brand green">Progeny MMXIV</a>
 					</div>
 					<div class="search_loupe text-center">
-						<a href="#" class="loupe"></a>
+						<!-- J'appels ma fonction ninja() sur un Onclick -->
+						<a href="#" onclick="ninja()" class="loupe"></a>
 					</div>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Music</a></li>
-						<li><a href="#">Gigs</a></li>
-						<li><a href="#">Photos</a></li>
-						<li><a href="#">Video</a></li>
-						<li><a target="_blank" href="#" class="facebook"></a></li>
-						<li><a target="_blank" href="#" class="twitter"></a></li>
+						<li><a href="#" class="greenblock">About</a></li>
+						<li><a href="#" class="greenblock">Music</a></li>
+						<li><a href="#" class="greenblock">Gigs</a></li>
+						<li><a href="#" class="greenblock">Photos</a></li>
+						<li><a href="#" class="greenblock">Video</a></li>
+						<li><a target="_blank" href="#" class="facebook greenblock"></a></li>
+						<li><a target="_blank" href="#" class="twitter greenblock"></a></li>
 					</ul>
 				</div>
 				<div class="col-lg-10 col-lg-offset-2 search_box">
-					<div class="input-group search_form search_large">
+					<div id="OnOFF" class="input-group search_form search_large active_search">
 						<input type="text" class="form-control size_md size_sx" placeholder="Search ...">
 					</div>
 				</div>
@@ -47,8 +48,9 @@
 		<div class="col-lg-10 col-lg-push-2 col-md-12">
 			<!-- bandeau, 3 images -->
 			<section id="bandeau" class="row">
+				<div class="col-lg-12"></div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="images/nowell-featured-image-1038x576.jpg"/>
+					<div style="background-image: url(images/nowell-featured-image-1038x576.jpg)"></div>
 					<h2>
 						blog
 						<br/>
@@ -58,7 +60,7 @@
 					</h2>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="images/rodney-hayden-atascosa-sand.jpg"/>
+					<div style="background-image: url(images/rodney-hayden-atascosa-sand.jpg)"></div>
 					<h2>
 						records
 						<br/>
@@ -68,7 +70,7 @@
 					</h2>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="images/322267385_640.jpg"/>
+					<div style="background-image: url(images/322267385_640.jpg)"></div>
 					<h2>
 						videos
 						<br/>
@@ -157,20 +159,20 @@
 		<!-- <aside> -->
 		<aside class="row">
 			<div class="container-fluid">
-			<div class="col-lg-2 sidebar">
+			<div class="col-lg-12 sidebar">
 						<nav class="block nav_sidebar">
 							<h2 class="descrip_site">Twenty Fourteen Child Theme</h2>
 							<ul>
-								<li><a href="#">credits</a></li>
-								<li><a href="#">blogs/news</a></li>
-								<li><a href="#">style guide</a></li>
-								<li><a href="#">contact</a></li>
-								<li><a href="#">try audiotheme!</a></li>
-								<li><a href="#">github</a></li>
-								<li><a href="#">wordpress</a></li>
+								<li><a href="#" class="greenblock">credits</a></li>
+								<li><a href="#" class="greenblock">blogs/news</a></li>
+								<li><a href="#" class="greenblock">style guide</a></li>
+								<li><a href="#" class="greenblock">contact</a></li>
+								<li><a href="#" class="greenblock">try audiotheme!</a></li>
+								<li><a href="#" class="greenblock">github</a></li>
+								<li><a href="#" class="greenblock">wordpress</a></li>
 							</ul>
 						</nav>
-					<div class="input-group search_form search_sidebar block">
+					<div class="input-group search_form search_sidebar block col-lg-10 center-block">
 						<input type="text" class="form-control size_sx" placeholder="Search ...">
 					</div>
 					<div class="col-lg-12 block">
@@ -210,5 +212,21 @@
 			<a href="#" class="green">Proudly powered by WordPress</a> 
 		</div>
 	</footer>
+	<script>
+function ninja() {
+	// définition de ma variable pour la lier avec mon Id
+	var status_show_hide = document.getElementById("OnOFF");
+
+	// Si ma variable status_show_hide est en display:none alors,
+	if (status_show_hide.style.display === 'none'){
+	// Je la fais passer en block
+	    status_show_hide.style.display = 'block';
+	}
+	// Sinon en display:none
+	else{
+	    status_show_hide.style.display = 'none';
+	}
+}
+</script>
 </body>
 </html>

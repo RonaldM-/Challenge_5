@@ -372,10 +372,14 @@ footer{
 
 /* article - style des liens */
 #article a {
-	color: #3F942B;
+	color: #24890D;
 }
 #article article a {
 	text-decoration: underline;
+}
+#article a:hover {
+	color: #41A62A;
+	text-decoration: none;
 }
 
 /* article - style des sections de la colonne de droite */
@@ -388,6 +392,15 @@ footer{
 /* article - format de l’image de la colonne de droite */
 #article > div:nth-child(2) img {
 	width: 100%;
+}
+
+/* article - effet de survol sur l’image de la colonne de droite */
+#article > div:nth-child(2) > div > div:nth-child(2) > div {
+	background-color: #000;
+	background-image: url(images/pattern-dark.svg);
+}
+#article > div:nth-child(2) img:hover {
+	opacity: 0.85;
 }
 
 /* article - section cachée dans "upcoming gigs" sur écrans < large */

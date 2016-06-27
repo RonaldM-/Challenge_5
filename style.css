@@ -272,9 +272,12 @@ footer{
 #bandeau > div {
 	background-color: #000000;
 }
-#bandeau,
-#bandeau small {
+#bandeau a {
 	color: #FFFFFF;
+}
+#bandeau a:hover {
+	text-decoration: none;
+	color: #41A62A;
 }
 
 /* style du bandeau - style du texte */

@@ -52,7 +52,7 @@ nav.navbar{
 	background-color: #24890d!important;
 	color: white;
 }
-a.facebook, a.twitter, a.wordpress, a.github{
+a.facebook, a.twitter{
 	padding: 0;
 }
 .facebook:before {
@@ -72,22 +72,19 @@ a.facebook, a.twitter, a.wordpress, a.github{
 }
 .github:after{
 	content: '\f200';
-	float: right;
 	font: normal 16px/1 'Genericons';
 	display: inline-block;
+	float: right;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 .wordpress:after{
-	/*margin-left: 30px;*/
-	float: right;
 	content: '\f205';
 	font: normal 16px/1 'Genericons';
 	display: inline-block;
+	float: right;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
 }
 a.loupe{
 	display: block;
@@ -158,6 +155,9 @@ nav{
 }
 .block{
 	margin-bottom:48px;
+}
+.sidebar{
+	padding:0;
 }
 .nav_sidebar a{
 	display: block;

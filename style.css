@@ -86,6 +86,15 @@
 	width: 100%;
 }
 
+/* article - effet de survol sur l’image de la colonne de droite */
+#article > div:nth-child(2) > div > div:nth-child(2) > div {
+	background-color: #000;
+	background-image: url(images/pattern-dark.svg);
+}
+#article > div:nth-child(2) img:hover {
+	opacity: 0.5;
+}
+
 /* article - section cachée dans "upcoming gigs" sur écrans < large */
 @media (max-width: 1199px) {
 	#article > div:nth-child(2) > div > div > p:nth-child(3),

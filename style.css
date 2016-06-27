@@ -52,7 +52,7 @@ nav.navbar{
 	background-color: #24890d!important;
 	color: white;
 }
-a.facebook, a.twitter{
+a.facebook, a.twitter, a.wordpress, a.github{
 	padding: 0;
 }
 .facebook:before {
@@ -69,6 +69,25 @@ a.facebook, a.twitter{
 	display: inline-block;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+.github:after{
+	content: '\f200';
+	float: right;
+	font: normal 16px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.wordpress:after{
+	/*margin-left: 30px;*/
+	float: right;
+	content: '\f205';
+	font: normal 16px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 }
 a.loupe{
 	display: block;
@@ -410,3 +429,5 @@ footer{
 		display: none;
 	}
 }
+
+

@@ -5,6 +5,12 @@
 	height: 300px;
 	padding: 0;
 }
+#bandeau > div > div:first-child {
+	height: 200px;
+}
+#bandeau > div > div:last-child {
+	height: 100px;
+}
 
 /* style du bandeau - couleurs */
 #bandeau > div {
@@ -41,7 +47,6 @@
 /* style du bandeau - taille des images */
 #bandeau > div > div:first-child {
 	width: 100%;
-	height: 200px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }

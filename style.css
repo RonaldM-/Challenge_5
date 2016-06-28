@@ -13,8 +13,8 @@
 }
 
 /* style du bandeau - couleurs */
-#bandeau > div {
-	background-color: #000000;
+#bandeau > div > div:last-child {
+	background-color: #000;
 }
 #bandeau a {
 	color: #FFFFFF;
@@ -60,6 +60,7 @@
 	width: 100%;
 	height: 600px;
 	background-image: url(images/pattern-dark.svg);
+	background-color: #000;
 }
 @media (min-width: 1200px) {
 	#bandeau > div:first-child {

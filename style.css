@@ -5,7 +5,7 @@
 	height: 300px;
 	padding: 0;
 }
-#bandeau > div > div:first-child {
+#bandeau > div > a > div:first-child {
 	height: 200px;
 }
 #bandeau > div > div:last-child {
@@ -45,7 +45,7 @@
 }
 
 /* style du bandeau - taille des images */
-#bandeau > div > div:first-child {
+#bandeau > div > a > div:first-child {
 	width: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -66,4 +66,9 @@
 	#bandeau > div:first-child {
 		height: 300px;
 	}
+}
+
+/* bandeau - effet au survol des images */
+#bandeau > div > a > div:first-child:hover {
+	opacity: 0.85;
 }
